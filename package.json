@@ -1,0 +1,15 @@
+{
+  "name": "documentos_envio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eduardo_Turcios",
+  "license": "ISC",
+  "description": "tarea",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
