@@ -1,19 +1,11 @@
 
-// Dependencia para darle color a la consola
 var colors = require('colors')
 
-// ========================================
-// Parámetros del envío desde la terminal
-// ========================================
-// process.argv[2] = primer argumento (peso)
-// process.argv[3] = segundo argumento (distancia)
-// Si no se pasa, usar valores por defecto
+
 var peso = process.argv[2] ? parseFloat(process.argv[2]) : 10
 var distancia = process.argv[3] ? parseFloat(process.argv[3]) : 120
 
-// ========================================
-// Clase para calcular el envío
-// ========================================
+
 class Envio {
     peso = 0
     distancia = 0
@@ -71,8 +63,6 @@ class Envio {
     }
 }
 
-// ========================================
-// Ejecución del programa
-// ========================================
+
 var envio1 = new Envio(peso, distancia)
 envio1.mostrarResumen()
